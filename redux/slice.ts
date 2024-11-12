@@ -40,6 +40,7 @@ const scoreSlice = createSlice({
       state.correctQuestions = action.payload;
     },
     setPercentileAll: (state, action: PayloadAction<object>) => {
+      //@ts-ignore
       state.percentileall = action.payload;
     },
   },
