@@ -15,7 +15,7 @@ function Layout({ children }: LayoutProps) {
                 <Header/>
             </div>
 
-            <div className='lg:w-64 md:w-64 z-[999] bg-white  fixed w-full  lg:block md:block mt-[5rem] lg:mt-[5.4rem] md:mt-[6.4rem] lg:border-none md:border-none border-b-4 border-t-2'>
+            <div className='lg:w-64 md:w-64 z-[99] bg-white  fixed w-full  lg:block md:block mt-[5rem] lg:mt-[5.4rem] md:mt-[6.4rem] lg:border-none md:border-none border-b-4 border-t-2'>
                 <SideNav/>
             </div>
 
